@@ -3,13 +3,13 @@ package main
 import (
 	"time"
 
-	"github.com/ebelanja/services/logspammer/handler"
-	"github.com/ebelanja/services/logspammer/subscriber"
+	"github.com/ebelanja/micro-services/logspammer/handler"
+	"github.com/ebelanja/micro-services/logspammer/subscriber"
 
 	"github.com/ebelanja/go-micro"
 	log "github.com/ebelanja/go-micro/logger"
 
-	logspammer "github.com/ebelanja/services/logspammer/proto/logspammer"
+	logspammer "github.com/ebelanja/micro-services/logspammer/proto/logspammer"
 )
 
 func init() {

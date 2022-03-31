@@ -1,4 +1,4 @@
-module github.com/ebelanja/services/logspammer
+module github.com/ebelanja/micro-services/logspammer
 
 go 1.13
 
